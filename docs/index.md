@@ -13,9 +13,34 @@ pip install faker-optional
 # A Simple Example
 
 ```python
-{! examples/simple-example.py !} # noqa
+from faker import Faker
+from faker_optional import OptionalProvider
+
+fake = Faker()
+fake.add_provider(OptionalProvider)
+
+fake.optional_int()
+# None
+
+fake.optional_int()
+# 1234
 ```
 
+# Usage
+
+`OptionalProvider` uses existent faker providers to create the data, so you can
+use the provider method arguments.
+
+For example, `optional_int` uses the [`python provider
+pyint`](https://faker.readthedocs.io/en/master/providers/faker.providers.python.html#faker.providers.python.Provider.pyint),
+so you can use the `min_value`, `max_value`, and `step` arguments. Every
+`optional_` method accepts the float `ratio` argument between `0` and `1`, with
+a default value of `0.5` to define what percent of results should be `None`,
+a greater value will mean that less results will be `None`.
+
+Check the [supported methods](reference.md). If you want one that's not
+included, it's really easy to implement it yourself, [please make a pull
+request](contributing.md).
 # References
 
 As most open sourced programs, `faker-optional` is standing on the shoulders of

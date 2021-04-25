@@ -1,0 +1,25 @@
+{
+  "template": "https://github.com/lyz-code/cookiecutter-python-project",
+  "commit": "82cdf790b9326f9892e25702a64c2af33c3d3e6c",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "Faker Optional",
+      "project_slug": "faker-optional",
+      "project_description": "Faker provider to create optional data",
+      "requirements": "",
+      "configure_command_line": "False",
+      "read_configuration_from_yaml": "False",
+      "github_user": "lyz-code",
+      "github_token_pass_path": "internet/github.lyz-code.api_token",
+      "pypi_token_pass_path": "internet/pypi.token",
+      "test_pypi_token_pass_path": "internet/test.pypi.token",
+      "author": "Lyz",
+      "author_email": "lyz-code-security-advisories@riseup.net",
+      "security_advisories_email": "lyz-code-security-advisories@riseup.net",
+      "project_underscore_slug": "faker_optional",
+      "_template": "https://github.com/lyz-code/cookiecutter-python-project"
+    }
+  },
+  "directory": null
+}
