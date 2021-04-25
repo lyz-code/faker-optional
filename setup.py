@@ -20,7 +20,10 @@ with open("README.md", "r") as readme_file:
 setup(
     name="faker-optional",
     version=version,
-    description="Faker provider to create optional data",
+    description=(
+        "Wrapper over other Faker providers to return their value or `None`. Useful to "
+        "create data of type `Optional[Any]`.",
+    ),
     author="Lyz",
     author_email="lyz-code-security-advisories@riseup.net",
     license="GNU General Public License v3",

@@ -2,7 +2,8 @@
 [![Actions Status](https://github.com/lyz-code/faker-optional/workflows/Build/badge.svg)](https://github.com/lyz-code/faker-optional/actions)
 [![Coverage Status](https://coveralls.io/repos/github/lyz-code/faker-optional/badge.svg?branch=master)](https://coveralls.io/github/lyz-code/faker-optional?branch=master)
 
-Faker provider to create optional data
+Wrapper over other Faker providers to return their value or `None`. Useful to
+create data of type `Optional[Any]`.
 
 # Installing
 
