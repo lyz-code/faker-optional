@@ -2,4 +2,6 @@
 
 from typing import List
 
-__all__: List[str] = []
+from .model import OptionalProvider
+
+__all__: List[str] = ["OptionalProvider"]

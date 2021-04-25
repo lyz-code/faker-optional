@@ -4,7 +4,7 @@
 [![Actions Status](https://github.com/lyz-code/faker-optional/workflows/Build/badge.svg)](https://github.com/lyz-code/faker-optional/actions)
 [![Coverage Status](https://coveralls.io/repos/github/lyz-code/faker-optional/badge.svg?branch=master)](https://coveralls.io/github/lyz-code/faker-optional?branch=master)
 
-Faker provider to create optional data
+Faker provider to create optional data.
 
 ## Help
 
