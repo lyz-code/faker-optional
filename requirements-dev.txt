@@ -81,7 +81,7 @@ entrypoints==0.3
     # via flakehell
 eradicate==2.0.0
     # via flake8-eradicate
-faker==8.1.1
+faker==8.1.2
     # via -r requirements.txt
 filelock==3.0.12
     # via virtualenv
