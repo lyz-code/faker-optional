@@ -16,7 +16,7 @@ certifi==2020.12.5
     # via requests
 chardet==4.0.0
     # via requests
-click==7.1.2
+click==8.0.0
     # via
     #   mkdocs
     #   nltk
@@ -93,7 +93,7 @@ nltk==3.6.2
     # via lunr
 pygments==2.9.0
     # via mkdocs-material
-pymdown-extensions==8.1.1
+pymdown-extensions==8.2
     # via
     #   mkdocs-material
     #   mkdocstrings

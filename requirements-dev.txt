@@ -39,7 +39,7 @@ beautifulsoup4==4.9.3
     # via
     #   -r docs/requirements.txt
     #   mkdocs-htmlproofer-plugin
-black==21.5b0
+black==21.5b1
     # via -r requirements-dev.in
 cached-property==1.5.2
     # via
@@ -55,7 +55,7 @@ chardet==4.0.0
     # via
     #   -r docs/requirements.txt
     #   requests
-click==7.1.2
+click==8.0.0
     # via
     #   -r docs/requirements.txt
     #   autoimport
@@ -81,7 +81,7 @@ entrypoints==0.3
     # via flakehell
 eradicate==2.0.0
     # via flake8-eradicate
-faker==8.1.2
+faker==8.1.3
     # via -r requirements.txt
 filelock==3.0.12
     # via virtualenv
@@ -93,7 +93,7 @@ flake8-annotations==2.6.2
     # via -r requirements-dev.in
 flake8-bugbear==21.4.3
     # via -r requirements-dev.in
-flake8-comprehensions==3.4.0
+flake8-comprehensions==3.5.0
     # via -r requirements-dev.in
 flake8-debugger==4.0.0
     # via -r requirements-dev.in
@@ -125,7 +125,7 @@ flake8-use-fstring==1.1
     # via -r requirements-dev.in
 flake8-variables-names==0.0.4
     # via -r requirements-dev.in
-flake8==3.9.1
+flake8==3.9.2
     # via
     #   dlint
     #   flake8-annotations
@@ -334,7 +334,7 @@ pygments==2.9.0
     #   mkdocs-material
 pylint==2.8.2
     # via -r requirements-dev.in
-pymdown-extensions==8.1.1
+pymdown-extensions==8.2
     # via
     #   -r docs/requirements.txt
     #   mkdocs-material
@@ -476,7 +476,7 @@ zipp==3.4.1
 # The following packages are considered to be unsafe in a requirements file:
 pip==21.1.1
     # via pip-tools
-setuptools==56.1.0
+setuptools==56.2.0
     # via
     #   flake8-annotations-complexity
     #   flake8-expression-complexity
