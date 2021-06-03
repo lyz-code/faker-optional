@@ -5,7 +5,7 @@
 pytest
 pytest-cov
 pytest-pythonpath
-pytest-repeat
+pytest-xdist
 
 # Linting
 yamllint
