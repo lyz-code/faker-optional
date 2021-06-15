@@ -82,7 +82,7 @@ eradicate==2.0.0
     # via flake8-eradicate
 execnet==1.9.0
     # via pytest-xdist
-faker==8.7.0
+faker==8.8.0
     # via -r requirements.txt
 filelock==3.0.12
     # via virtualenv
