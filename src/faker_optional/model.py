@@ -12,8 +12,7 @@ from faker.providers.person import Provider as PersonProvider
 from faker.providers.python import Provider as PyProvider
 
 
-# ignore: Cannot subclass BaseProvider it has type Any. I don't know how to solve it
-class OptionalProvider(BaseProvider):  # type: ignore
+class OptionalProvider(BaseProvider):
     """Faker Provider to simulate Optional data."""
 
     def __init__(self, generator: Generator) -> None:
@@ -36,9 +35,9 @@ class OptionalProvider(BaseProvider):  # type: ignore
         """Return an optional integer."""
         return self._optional_value(self.python.pyint(**kwargs))
 
-    def optional_bool(self, ratio: float = 0.5, **kwargs: Any) -> Optional[bool]:
+    def optional_bool(self, ratio: float = 0.5) -> Optional[bool]:
         """Return an optional bool."""
-        return self._optional_value(self.python.pybool(**kwargs), ratio)
+        return self._optional_value(self.python.pybool(), ratio)
 
     def optional_str(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
         """Return an optional random string of upper and lowercase letters."""
@@ -112,64 +111,71 @@ class OptionalProvider(BaseProvider):  # type: ignore
         """Return an optional text."""
         return self._optional_value(self.lorem.texts(**kwargs), ratio)
 
-    def optional_name(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
+    def optional_name(self, ratio: float = 0.5) -> Optional[str]:
         """Return an optional name."""
-        return self._optional_value(self.person.name(**kwargs), ratio)
+        return self._optional_value(self.person.name(), ratio)
 
-    def optional_first_name(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
+    def optional_first_name(self, ratio: float = 0.5) -> Optional[str]:
         """Return an optional first_name."""
-        return self._optional_value(self.person.first_name(**kwargs), ratio)
+        return self._optional_value(self.person.first_name(), ratio)
 
-    def optional_last_name(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
+    def optional_last_name(self, ratio: float = 0.5) -> Optional[str]:
         """Return an optional last_name."""
-        return self._optional_value(self.person.last_name(**kwargs), ratio)
+        return self._optional_value(self.person.last_name(), ratio)
 
-    def optional_name_female(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
+    def optional_name_female(self, ratio: float = 0.5) -> Optional[str]:
         """Return an optional name_female."""
-        return self._optional_value(self.person.name_female(**kwargs), ratio)
+        return self._optional_value(self.person.name_female(), ratio)
 
-    def optional_name_male(self, ratio: float = 0.5, **kwargs: Any) -> Optional[str]:
+    def optional_name_male(self, ratio: float = 0.5) -> Optional[str]:
         """Return an optional name_male."""
-        return self._optional_value(self.person.name_male(**kwargs), ratio)
+        return self._optional_value(self.person.name_male(), ratio)
 
     def optional_name_nonbinary(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional name_nonbinary."""
-        return self._optional_value(self.person.name_nonbinary(**kwargs), ratio)
+        return self._optional_value(self.person.name_nonbinary(), ratio)
 
     def optional_first_name_female(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional first_name_female."""
-        return self._optional_value(self.person.first_name_female(**kwargs), ratio)
+        return self._optional_value(self.person.first_name_female(), ratio)
 
     def optional_first_name_male(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional first_name_male."""
-        return self._optional_value(self.person.first_name_male(**kwargs), ratio)
+        return self._optional_value(self.person.first_name_male(), ratio)
 
     def optional_first_name_nonbinary(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional first_name_nonbinary."""
-        return self._optional_value(self.person.first_name_nonbinary(**kwargs), ratio)
+        return self._optional_value(self.person.first_name_nonbinary(), ratio)
 
     def optional_last_name_female(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional last_name_female."""
-        return self._optional_value(self.person.last_name_female(**kwargs), ratio)
+        return self._optional_value(self.person.last_name_female(), ratio)
 
     def optional_last_name_male(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional last_name_male."""
-        return self._optional_value(self.person.last_name_male(**kwargs), ratio)
+        return self._optional_value(self.person.last_name_male(), ratio)
 
     def optional_last_name_nonbinary(
-        self, ratio: float = 0.5, **kwargs: Any
+        self,
+        ratio: float = 0.5,
     ) -> Optional[str]:
         """Return an optional last_name_nonbinary."""
-        return self._optional_value(self.person.last_name_nonbinary(**kwargs), ratio)
+        return self._optional_value(self.person.last_name_nonbinary(), ratio)
