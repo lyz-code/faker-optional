@@ -80,7 +80,7 @@ eradicate==2.0.0
     # via flake8-eradicate
 execnet==1.9.0
     # via pytest-xdist
-faker==8.13.2
+faker==8.14.0
     # via -r requirements.txt
 filelock==3.0.12
     # via virtualenv
@@ -390,7 +390,7 @@ pyyaml-env-tag==0.1
     # via
     #   -r docs/requirements.txt
     #   mkdocs
-regex==2021.8.28
+regex==2021.9.24
     # via black
 requests==2.26.0
     # via
@@ -463,7 +463,7 @@ urllib3==1.26.7
     #   -r docs/requirements.txt
     #   flakehell
     #   requests
-virtualenv==20.8.0
+virtualenv==20.8.1
     # via pre-commit
 watchdog==2.1.5
     # via
