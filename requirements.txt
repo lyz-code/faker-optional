@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe
 #
-faker==8.14.1
+faker==8.16.0
     # via faker-optional (setup.py)
 python-dateutil==2.8.2
     # via faker
