@@ -82,7 +82,7 @@ execnet==1.9.0
     # via pytest-xdist
 faker==9.3.1
     # via -r requirements.txt
-filelock==3.3.0
+filelock==3.3.1
     # via virtualenv
 flake8==3.9.2
     # via
