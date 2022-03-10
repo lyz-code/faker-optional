@@ -1,3 +1,7 @@
+**No longer maintained: I  use
+[pydantic-factories](https://github.com/Goldziher/pydantic-factories) instead,
+if you want to maintain this repo, I can transfer it to you.**
+
 # Faker Optional
 
 [![Actions Status](https://github.com/lyz-code/faker-optional/workflows/Tests/badge.svg)](https://github.com/lyz-code/faker-optional/actions)
