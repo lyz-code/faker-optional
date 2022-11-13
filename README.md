@@ -1,6 +1,9 @@
-**No longer maintained: I  use
+**No longer maintained: I use
 [pydantic-factories](https://github.com/Goldziher/pydantic-factories) instead,
 if you want to maintain this repo, I can transfer it to you.**
+
+**If you still want to use `faker-optional`, @PerchunPak is maintaining
+[a fork](https://github.com/PerchunPak/optional-faker).**
 
 # Faker Optional
 
@@ -23,9 +26,9 @@ pip install faker-optional
 
 ## Contributing
 
-For guidance on setting up a development environment, and how to make
-a contribution to *faker-optional*, see [Contributing to
-faker-optional](https://lyz-code.github.io/faker-optional/contributing).
+For guidance on setting up a development environment, and how to make a
+contribution to *faker-optional*, see
+[Contributing to faker-optional](https://lyz-code.github.io/faker-optional/contributing).
 
 ## License
 
